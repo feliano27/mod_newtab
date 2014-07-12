@@ -1,0 +1,27 @@
+#searchbox {
+  
+  width:200px;
+  height:32px;
+  background:#e5e5e5;
+  border:none;
+  position:relative;
+  border-left: 1px solid grey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin:0px 0px 0px 0px;
+}
+
+.s-button {
+  
+  height:32px;
+    width:32px;
+    border: none;
+    background:#e5e5e5;
+    cursor: pointer;
+    position:relative;
+    border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin:0px 0px 0px 0px;
+  
+}
