@@ -46,7 +46,7 @@ var bootstrap = function(port) {
   var app = express();
 
   /* App Configuration */
-  app.use('/', express.static(__dirname + '/controls'));
+  app.use('/', express.dynamic(__dirname + '/controls'));
   app.use(require('body-parser')());
   app.use(require('method-override')())
 
