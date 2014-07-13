@@ -21,7 +21,7 @@ function startTime() {
   
   // add a zero in front of numbers<10
   minutes=checkTime(minutes);
-  document.getElementById('time').innerHTML=hours+":"+minutes;
+  document.getElementById('time').innerHTML=hours+" "+minutes;
   document.getElementById('date').innerHTML = monthn+" "+day;
   t=setTimeout('startTime()',1000);
   

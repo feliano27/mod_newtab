@@ -1,8 +1,11 @@
+
+
+
+
 body {
   
   background:#e5e5e5;
-  font-family: "Lato", Roboto, Helvetica, sans-serif; 
-  font-weight: 100;
+  font-family: 'Lato', sans-serif; 
   text-align: center;
   
 }
@@ -27,9 +30,21 @@ body {
 }
 
 
+h2 {
+  
+  font-weight: 300;
+  
+}
+
+h3 {
+  
+ font-weight:100;
+  
+}
+
 #time {
   
-  font-size: 5rem;
+  font-size: 6.4rem;
   margin:0;
   color: #2a3b45;
   
