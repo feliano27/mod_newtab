@@ -7,7 +7,11 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:400,100,300,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/searchbox.css">
+    <link rel="stylesheet" type="text/css" href="css/avgrund.css">
+    <script src="js/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/jquery.simpleWeather.min.js"></script>
+    <script src="js/avgrund.js"></script>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   
   
@@ -15,9 +19,13 @@
 
   <body onload="startTime()">
     
-    <div class="outer">
+    <div class="outer avgrund-contents">
     <div class="middle">
     <div class="inner">
+    
+    
+    <button onclick="avgrund.activate( 'stack' );">Stack it</button>
+	<button onclick="avgrund.activate();">Grow it</button>
     
       <h2 id="time"></h2>
       <h3 id="date"></h3>
@@ -34,9 +42,30 @@
       <button type="submit" class="fa fa-search s-button"></button>
   </form>    
  fa-search-->
+ 
+    <div id="weather"></div>
+<button class="js-geolocation locbtn" style="display: none;">Use Your Location</button>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     </div>
     </div>
     </div>
+    
+    <div class="avgrund-cover"></div>
+    
+    <aside class="avgrund-popup">
+	<h2>That's all, folks</h2>
+	<p>
+		You can hit ESC or click outside to close the modal. Give it a go to see the reverse transition.
+	</p>
+	<button onclick="avgrund.deactivate();">Close</button>
+</aside>
+    
     
   </body>
   
