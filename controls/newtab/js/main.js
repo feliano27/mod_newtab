@@ -35,7 +35,7 @@ function checkTime(i) {
   return i;
 }
 
-
+/*
 
 $(document).ready(function() {  
   
@@ -62,11 +62,11 @@ function initializeWeather() {
   }
   
 }
-
+*/
 
 /* Where in the world are you? */
 
-
+/*
 
 
 function loadWeather(location, woeid) {
@@ -87,4 +87,4 @@ function loadWeather(location, woeid) {
     }
   });
 }
-
+*/
